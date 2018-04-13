@@ -7,6 +7,11 @@ body {
   height: 700px;
   margin-top: 10px;
 }
+
+#skills {
+  margin-left: 30px;
+}
+
 #skillmap .skills-wrapper {
   margin-top: 10px;
   overflow: auto;
@@ -17,7 +22,7 @@ body {
   margin-left: -80px;
 }
 #skillmap .skills-sunburst svg {
-  font: 11px 'Source Sans Pro', sans-serif;
+  font: 9px 'Source Sans Pro', sans-serif;
   font-weight: 900;
   cursor: pointer;
 }
@@ -28,7 +33,7 @@ body {
   margin: 80px 20px 0 0;
 }
 #skillmap .skills-chart .breadcumb-text {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
 }
 #skillmap .skills-chart #skills-chart-line {
