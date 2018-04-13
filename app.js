@@ -6,6 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+const port = '443'
 
 var app = express();
 
@@ -26,4 +27,6 @@ app.use(function(req, res) {
   res.sendFile('./public/index.html')
 })
 
-module.exports = app;
+app.listen(port, function(err) {
+  console.log("listening on port " + port)
+})
